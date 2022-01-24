@@ -1,6 +1,6 @@
 {
   "name": "auto-assign-reviewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A github action to automatically assign a reviewer to a open PR.",
   "main": "dist/index.js",
   "repository": "git@github.com:jagadish-k/auto-assign-reviewer.git",
