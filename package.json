@@ -1,0 +1,19 @@
+{
+  "name": "auto-assign-reviewer",
+  "version": "1.0.0",
+  "description": "A github action to automatically assign a reviewer to a open PR.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:jagadish-k/auto-assign-reviewer.git",
+  "author": "Jagadish, K. <kasijagadish@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/index.js --license licenses.txt"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.1"
+  }
+}

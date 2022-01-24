@@ -1,0 +1,7 @@
+name: 'Auto assign revieer'
+description: 'Automatically assign reviewer to an open PR'
+inputs:
+  reviewers:  
+    required: true
+  team_reviewers:  
+    required: true
