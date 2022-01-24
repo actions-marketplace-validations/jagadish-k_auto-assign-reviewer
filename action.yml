@@ -11,6 +11,8 @@ branding:
   color: gray-dark
 
 inputs:
+  github-token:
+    required: true
   reviewers:  
     required: true
   team_reviewers:  
