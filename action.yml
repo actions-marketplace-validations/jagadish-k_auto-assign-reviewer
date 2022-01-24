@@ -1,7 +1,18 @@
-name: 'Auto assign revieer'
+name: 'Auto assign reviewer'
 description: 'Automatically assign reviewer to an open PR'
+author: "Jagadish, K. <kasijagadish@gmail.com>"
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  icon: user
+  color: gray-dark
+
 inputs:
   reviewers:  
     required: true
   team_reviewers:  
-    required: true
+    required: false
+    default: ''
