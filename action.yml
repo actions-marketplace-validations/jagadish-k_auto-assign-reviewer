@@ -3,8 +3,8 @@ description: 'Automatically assign reviewer to an open PR'
 author: "Jagadish, K. <kasijagadish@gmail.com>"
 
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: node16
+  main: dist/index.js
 
 branding:
   icon: user
